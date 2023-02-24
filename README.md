@@ -73,3 +73,7 @@ React Hooks es una característica de React que permite a los desarrolladores us
 - La carpeta /pages contiene todas las páginas de la aplicación. Al igual que en la carpeta /components, cada página tiene su propia carpeta con un archivo index.js que exporta la página, y los archivos PaginaX.js y PaginaX.css que contienen la lógica y la presentación de la página respectivamente.
 - La carpeta /assets contiene todos los archivos de activos estáticos, como imágenes, fuentes, etc.
 - Finalmente, App.js es el archivo principal que contiene la estructura general de la aplicación y la lógica común, index.js es el archivo de entrada de la aplicación, y index.css contiene las reglas de estilo globales de la aplicación.
+
+## Tailwind css
+
+Tailwind CSS es un framework de diseño de interfaz de usuario de código abierto que proporciona clases CSS predefinidas para ayudar en la creación de diseños personalizados rápidamente. En lugar de crear estilos personalizados desde cero, Tailwind CSS proporciona una serie de clases que pueden aplicarse a elementos HTML para modificar su estilo. Las clases en Tailwind están diseñadas para ser lo más comunes posible, lo que significa que no están vinculadas a un diseño o estilo específico. En su lugar, proporcionan una serie de utilidades para modificar y construir diseños complejos de manera más eficiente.
