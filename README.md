@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# React Basic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aprender conceptos basicos de React
 
-## Available Scripts
+## React
 
-In the project directory, you can run:
+React puede ser muy útil para el desarrollo de aplicaciones web modernas e interactivas. React es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario (UI) interactivas y de una sola página. Fue creado por Facebook y lanzado en 2013. React se ha convertido en una de las herramientas más populares para la creación de aplicaciones web modernas y escalables, especialmente aquellas que manejan grandes cantidades de datos y requieren actualizaciones frecuentes. La principal ventaja de React es su capacidad para manejar y actualizar la interfaz de usuario en tiempo real sin tener que recargar la página completa. Utiliza un enfoque basado en componentes, lo que significa que las interfaces de usuario se descomponen en componentes pequeños y reutilizables, lo que facilita la creación y el mantenimiento de aplicaciones complejas. React también se integra fácilmente con otras bibliotecas y frameworks de JavaScript, como Redux y Angular. Esto permite a los desarrolladores construir aplicaciones personalizadas para satisfacer las necesidades específicas de su proyecto.
 
-### `npm start`
+## Componentes de React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Los componentes son la piedra angular de React y son la forma principal en que se construyen las interfaces de usuario en React. Los componentes son como piezas de lego que se pueden ensamblar para crear una interfaz de usuario completa. En React, los componentes se pueden dividir en dos tipos: componentes funcionales y componentes de clase. Ambos tipos de componentes se crean con JavaScript y JSX (una extensión de sintaxis de JavaScript que permite escribir código HTML como código JavaScript). Los componentes funcionales son funciones que toman algunas propiedades (props) y devuelven elementos de React. Son más simples y fáciles de entender que los componentes de clase, pero no tienen estado propio (state) ni métodos de ciclo de vida. Los componentes de clase son clases de JavaScript que extienden la clase base React.Component. Estos componentes tienen estado propio y pueden tener métodos de ciclo de vida.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Crear proeycto en React
 
-### `npm test`
+1. Se requiere Node.js: React se ejecuta en Node.js, por lo que necesitas tener Node.js instalado en tu máquina. Puedes descargar la última versión de Node.js desde su sitio web oficial: https://nodejs.org. NPM (Node Package Manager): NPM es un gestor de paquetes de Node.js que se utiliza para instalar y administrar las dependencias de React. NPM se instala automáticamente cuando instalas Node.js.
+2. Un editor de código: Necesitarás un editor de código para escribir y editar tu código de React. Hay muchos editores de código disponibles, como Visual Studio Code, Atom, Sublime Text, etc.
+3. Instalar la herramienta: $ npm install -g create-react-app. Se puede verificar la version de la herramienta con: $ create-react-app --version
+4. Crear el proeycto: $ create-react-app mi-aplicacion
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Comandos principales para crea un proyecto en React
 
-### `npm run build`
+- npm start: Este comando inicia el servidor de desarrollo y abre la aplicación en tu navegador predeterminado en http://localhost:3000. Cada vez que realices cambios en los archivos, la aplicación se recargará automáticamente.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- npm run build: Este comando crea una versión optimizada para producción de tu aplicación en la carpeta "build". Este proceso incluye la optimización del código, la creación de un archivo index.html y la copia de todos los archivos estáticos necesarios para la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- npm test: Este comando ejecuta las pruebas de la aplicación utilizando el marco de prueba Jest.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- npm run eject: Este comando te permite expulsar tu aplicación de Create React App y proporciona acceso completo a la configuración y herramientas de construcción. Este comando es irreversible y no se recomienda a menos que sepas lo que estás haciendo.
