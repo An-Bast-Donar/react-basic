@@ -8,7 +8,7 @@ React puede ser muy útil para el desarrollo de aplicaciones web modernas e inte
 
 ## Componentes de React
 
-Los componentes son la piedra angular de React y son la forma principal en que se construyen las interfaces de usuario en React. Los componentes son como piezas de lego que se pueden ensamblar para crear una interfaz de usuario completa. En React, los componentes se pueden dividir en dos tipos: componentes funcionales y componentes de clase. Ambos tipos de componentes se crean con JavaScript y JSX (una extensión de sintaxis de JavaScript que permite escribir código HTML como código JavaScript). Los componentes funcionales son funciones que toman algunas propiedades (props) y devuelven elementos de React. Son más simples y fáciles de entender que los componentes de clase, pero no tienen estado propio (state) ni métodos de ciclo de vida. Los componentes de clase son clases de JavaScript que extienden la clase base React.Component. Estos componentes tienen estado propio y pueden tener métodos de ciclo de vida.
+Los componentes son la piedra angular de React y son la forma principal en que se construyen las interfaces de usuario en React. Los componentes son como piezas de lego que se pueden ensamblar para crear una interfaz de usuario completa. En React, los componentes se pueden dividir en dos tipos: componentes funcionales y componentes de clase. Ambos tipos de componentes se crean con JavaScript y JSX (una extensión de sintaxis de JavaScript que permite escribir código HTML como código JavaScript). Los componentes funcionales son funciones que toman algunas propiedades (props) y devuelven elementos de React. Son más simples y fáciles de entender que los componentes de clase, pero no tienen estado propio (state) ni métodos de ciclo de vida. Los componentes de clase son clases de JavaScript que extienden la clase base React.Component. Estos componentes tienen estado propio y pueden tener métodos de ciclo de vida. Los componenetes basicamente son funciones que retornan una interfaz.
 
 ## Crear proeycto en React
 
@@ -43,3 +43,11 @@ Los componentes son la piedra angular de React y son la forma principal en que s
 ## Webpack
 
 Webpack es un paquete de módulos que se utiliza para construir aplicaciones web. Es una herramienta de construcción (build tool) que permite combinar múltiples archivos JavaScript y otros recursos (como CSS, imágenes y fuentes) en un único archivo que se puede enviar al navegador para su uso en una página web.
+
+## JSX
+
+JSX es una extensión de sintaxis para JavaScript que permite escribir código similar a HTML dentro de archivos de JavaScript. JSX es una parte integral de React y se utiliza para definir la estructura y el contenido de los componentes de React.
+
+## Props
+
+Las props (abreviatura de "propiedades") son uno de los principales conceptos en React y se utilizan para pasar datos de un componente a otro. Las props son objetos que contienen datos y se pasan como argumentos a los componentes de React.
