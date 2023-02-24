@@ -2,6 +2,34 @@ import logo from "./logo.svg";
 import "./App.css";
 import Saludo from "./Saludo";
 import BotonRojo from "./BotonRojo";
+import { FaSearch } from "react-icons/fa";
+
+function ListaUsuarios() {
+  const usuarios = [
+    { nombre: "Juan", email: "juan@example.com" },
+    { nombre: "María", email: "maria@example.com" },
+    { nombre: "Pedro", email: "pedro@example.com" },
+  ];
+
+  return (
+    <ul>
+      {usuarios.map((usuario) => (
+        <li key={usuario.email} style={{ textAlign: "left" }}>
+          <strong>{usuario.nombre + " "}</strong>
+          <span>{usuario.email}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function SearchBar() {
+  return (
+    <div>
+      <FaSearch />
+    </div>
+  );
+}
 
 function App() {
   return (
@@ -21,6 +49,8 @@ function App() {
         </a>
         <Saludo nombre="Juan" />
         <BotonRojo />
+        <SearchBar />
+        <ListaUsuarios />
       </header>
     </div>
   );
