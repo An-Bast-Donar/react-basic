@@ -3,6 +3,7 @@ import "./App.css";
 import Saludo from "./Saludo";
 import BotonRojo from "./BotonRojo";
 import { FaSearch } from "react-icons/fa";
+import Contador from "./Contador";
 
 function ListaUsuarios() {
   const usuarios = [
@@ -51,6 +52,7 @@ function App() {
         <BotonRojo />
         <SearchBar />
         <ListaUsuarios />
+        <Contador />
       </header>
     </div>
   );

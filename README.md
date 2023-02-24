@@ -53,3 +53,15 @@ JSX es una extensión de sintaxis para JavaScript que permite escribir código s
 - Las props (abreviatura de "propiedades") son uno de los principales conceptos en React y se utilizan para pasar datos de un componente a otro. Las props son objetos que contienen datos y se pasan como argumentos a los componentes de React.
 - defaultProps es una propiedad especial en React que se puede agregar a un componente de clase para establecer valores predeterminados para las props que el componente recibe. Si una prop no se proporciona al componente al ser utilizado, se usará el valor predeterminado especificado en defaultProps.
 - PropTypes es una librería de validación de tipo para las props de los componentes en React. Permite al desarrollador especificar qué tipo de valor se espera que tenga cada prop, y proporciona una advertencia en tiempo de ejecución si se proporciona una prop con un tipo diferente al esperado.
+
+## Hooks
+
+React Hooks es una característica de React que permite a los desarrolladores usar el estado y otras características de React sin tener que escribir clases de componentes. Los hooks son funciones que permiten agregar estados y otras características de React a los componentes de función. Existen varios hooks integrados en React, algunos de los más comunes son:
+
+- useState: permite agregar estado a un componente de función.
+- useEffect: permite realizar tareas secundarias, como peticiones a API, después de que el componente se haya renderizado.
+- useContext: permite acceder a un contexto global de la aplicación.
+- useReducer: es similar a useState, pero para casos más complejos en los que el estado tiene una lógica más compleja.
+- useCallback: permite optimizar el rendimiento de los componentes de función al memorizar las funciones que se pasan como propiedades.
+- useMemo: permite optimizar el rendimiento de los componentes de función al memorizar valores computados.
+- useRef: permite acceder al DOM o a cualquier valor mutable que se mantenga durante toda la vida del componente.
