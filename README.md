@@ -20,9 +20,26 @@ Los componentes son la piedra angular de React y son la forma principal en que s
 ## Comandos principales para crea un proyecto en React
 
 - npm start: Este comando inicia el servidor de desarrollo y abre la aplicación en tu navegador predeterminado en http://localhost:3000. Cada vez que realices cambios en los archivos, la aplicación se recargará automáticamente.
-
 - npm run build: Este comando crea una versión optimizada para producción de tu aplicación en la carpeta "build". Este proceso incluye la optimización del código, la creación de un archivo index.html y la copia de todos los archivos estáticos necesarios para la aplicación.
-
 - npm test: Este comando ejecuta las pruebas de la aplicación utilizando el marco de prueba Jest.
-
 - npm run eject: Este comando te permite expulsar tu aplicación de Create React App y proporciona acceso completo a la configuración y herramientas de construcción. Este comando es irreversible y no se recomienda a menos que sepas lo que estás haciendo.
+
+## Estructura de un proyecto
+
+- README.md: Archivo que describe la aplicación y su funcionamiento.
+- node_modules/: Directorio que contiene todas las dependencias del proyecto, instaladas mediante npm.
+- package.json: Archivo que contiene la información del proyecto, incluyendo las dependencias, los scripts, la versión, etc.
+- public/: Directorio que contiene archivos públicos que no necesitan ser procesados por Webpack, como el archivo index.html.
+- src/: Directorio que contiene el código fuente de la aplicación.
+- App.css: Archivo que contiene estilos CSS específicos para el componente App.
+- App.js: Archivo que contiene la lógica del componente App.
+- App.test.js: Archivo que contiene pruebas para el componente App.
+- index.css: Archivo que contiene estilos CSS para la página de inicio.
+- index.js: Archivo principal que carga la aplicación y renderiza el componente App en el DOM.
+- logo.svg: Archivo de imagen utilizado en el componente App.
+- serviceWorker.js: Archivo que permite que la aplicación funcione sin conexión.
+- setupTests.js: Archivo de configuración para Jest, utilizado para realizar pruebas.
+
+## Webpack
+
+Webpack es un paquete de módulos que se utiliza para construir aplicaciones web. Es una herramienta de construcción (build tool) que permite combinar múltiples archivos JavaScript y otros recursos (como CSS, imágenes y fuentes) en un único archivo que se puede enviar al navegador para su uso en una página web.
