@@ -1,9 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Saludo from "./Saludo";
-import BotonRojo from "./BotonRojo";
+import logo from "./assets/logo.svg";
 import { FaSearch } from "react-icons/fa";
-import Contador from "./Contador";
+
+import "./App.css";
+
+import Saludo from "./components/saludo/Saludo";
+import BotonRojo from "./components/botonrojo/BotonRojo";
+import Contador from "./components/contador/Contador";
 
 function ListaUsuarios() {
   const usuarios = [

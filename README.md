@@ -65,3 +65,11 @@ React Hooks es una característica de React que permite a los desarrolladores us
 - useCallback: permite optimizar el rendimiento de los componentes de función al memorizar las funciones que se pasan como propiedades.
 - useMemo: permite optimizar el rendimiento de los componentes de función al memorizar valores computados.
 - useRef: permite acceder al DOM o a cualquier valor mutable que se mantenga durante toda la vida del componente.
+
+## Estructura de carpetas
+
+- /src es la carpeta principal que contiene todos los archivos de código fuente de la aplicación y las demas carpetas son una subcarpeta de esta.
+- La carpeta /components contiene todos los componentes reutilizables que se utilizan en diferentes páginas de la aplicación. Cada componente tiene su propia carpeta con un archivo index.js que exporta el componente, y los archivos ComponenteX.js y ComponenteX.css que contienen la lógica y la presentación del componente respectivamente.
+- La carpeta /pages contiene todas las páginas de la aplicación. Al igual que en la carpeta /components, cada página tiene su propia carpeta con un archivo index.js que exporta la página, y los archivos PaginaX.js y PaginaX.css que contienen la lógica y la presentación de la página respectivamente.
+- La carpeta /assets contiene todos los archivos de activos estáticos, como imágenes, fuentes, etc.
+- Finalmente, App.js es el archivo principal que contiene la estructura general de la aplicación y la lógica común, index.js es el archivo de entrada de la aplicación, y index.css contiene las reglas de estilo globales de la aplicación.
