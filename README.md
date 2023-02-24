@@ -50,4 +50,6 @@ JSX es una extensión de sintaxis para JavaScript que permite escribir código s
 
 ## Props
 
-Las props (abreviatura de "propiedades") son uno de los principales conceptos en React y se utilizan para pasar datos de un componente a otro. Las props son objetos que contienen datos y se pasan como argumentos a los componentes de React.
+- Las props (abreviatura de "propiedades") son uno de los principales conceptos en React y se utilizan para pasar datos de un componente a otro. Las props son objetos que contienen datos y se pasan como argumentos a los componentes de React.
+- defaultProps es una propiedad especial en React que se puede agregar a un componente de clase para establecer valores predeterminados para las props que el componente recibe. Si una prop no se proporciona al componente al ser utilizado, se usará el valor predeterminado especificado en defaultProps.
+- PropTypes es una librería de validación de tipo para las props de los componentes en React. Permite al desarrollador especificar qué tipo de valor se espera que tenga cada prop, y proporciona una advertencia en tiempo de ejecución si se proporciona una prop con un tipo diferente al esperado.
