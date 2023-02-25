@@ -3,9 +3,12 @@ import { FaSearch } from "react-icons/fa";
 
 import "./App.css";
 
+import { MiContextoProvider } from "./context/MiContexto";
+
 import Saludo from "./components/saludo/Saludo";
 import BotonRojo from "./components/botonrojo/BotonRojo";
 import Contador from "./components/contador/Contador";
+import MiComponente from "./components/micomponente/MiComponente";
 
 function ListaUsuarios() {
   const usuarios = [
@@ -55,6 +58,11 @@ function App() {
         <SearchBar />
         <ListaUsuarios />
         <Contador />
+        <MiContextoProvider>
+          <div className="App">
+            <MiComponente />
+          </div>
+        </MiContextoProvider>
       </header>
     </div>
   );
